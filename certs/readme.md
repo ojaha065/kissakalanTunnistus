@@ -1,0 +1,1 @@
+These (of course) are not real certificates and they can be freely shared.

@@ -1,0 +1,20 @@
+{
+  "name": "kissakalantunnistus",
+  "version": "1.0.0",
+  "description": "Kissakalan tunnistuspalvelu (Mock SAML 2.0 IdP for testing purposes)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jani Haiko",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ojaha065/kissakalanTunnistus.git"
+  },
+  "dependencies": {
+    "saml-idp": "^1.2.1"
+  }
+}
