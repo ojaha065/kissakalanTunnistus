@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx npm-force-resolutions"
   },
   "author": "Jani Haiko",
   "license": "MIT",
@@ -16,5 +17,8 @@
   },
   "dependencies": {
     "saml-idp": "^1.2.1"
+  },
+  "resolutions": {
+    "node-forge": "^0.10.0"
   }
 }
