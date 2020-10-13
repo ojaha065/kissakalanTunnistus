@@ -4,7 +4,7 @@
 
 const idp = require("saml-idp");
 
-console.info("Starting Kissakalan tunnistuspalvelu IdP...");
+console.info("Starting Kissakalan Tunnistus IdP...");
 idp.runServer({
     // Host settings
     host: "localhost",
@@ -26,7 +26,7 @@ idp.runServer({
     rollSession: false,
     disableRequestAcsUrl: true,
     authnContextClassRef: "urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport",
-    configFile: "./config.js", // If the custom config is not loaded then replace config.js in ./node_modules/saml-idp
+    configFile: "../../config.js",
 
     // Encrypted assertions
     encryptAssertion: false,

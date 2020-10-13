@@ -1,7 +1,8 @@
-
 // Default values
 const profile = {
-  "urn:oid:1.2.246.21": "010170-0010",
+  "nameIdFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:transient",
+  "nameIdSPNameQualifier": "TODO",
+  "urn:oid:1.2.246.21": "010181-900C",
   "urn:oid:2.5.4.3": "Meikäläinen Matti Sakari",
   "urn:oid:2.16.840.1.113730.3.1.241": "Matti Meikäläinen",
   "urn:oid:2.5.4.42": "Matti",

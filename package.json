@@ -1,7 +1,7 @@
 {
   "name": "kissakalantunnistus",
-  "version": "1.0.0",
-  "description": "Kissakalan tunnistuspalvelu (Mock SAML 2.0 IdP for testing purposes)",
+  "version": "1.1.0",
+  "description": "Kissakalan Tunnistus (Mock SAML 2.0 IdP for testing purposes)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
