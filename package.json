@@ -19,6 +19,7 @@
     "saml-idp": "^1.2.1"
   },
   "resolutions": {
-    "node-forge": "^0.10.0"
+    "node-forge": "^0.10.0",
+    "xml-crypto": "^2.0.0"
   }
 }
