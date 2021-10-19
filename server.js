@@ -3,16 +3,18 @@
 // Jani Haiko, 2020
 
 const idp = require("saml-idp");
+const { env } = require("./env")
 
 console.info("Starting Kissakalan Tunnistus IdP...");
+
 idp.runServer({
     // Host settings
-    host: "localhost",
-    port: 443,
+    host: env.HOST,
+    port: env.PORT,
 
     // HTTPS
     // https://gist.github.com/fntlnz/cf14feb5a46b2eda428e000157447309
-    https: true,
+    https: env.SSL,
     httpsCert: "./certs/localhost.crt",
     httpsPrivateKey: "./certs/localhost.key",
 
@@ -34,8 +36,8 @@ idp.runServer({
     //encryptionPublicKey: "TODO",
 
     // SP metadata
-    acsUrl: "TODO",
-    sloUrl: "TODO",
-    audience: "TODO", // SP Entity ID
+    acsUrl: env.ACS_URL,
+    sloUrl: env.SLO_URL,
+    audience: env.AUDIENCE, // SP Entity ID
     serviceProviderId: undefined
 });
