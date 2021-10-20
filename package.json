@@ -16,6 +16,7 @@
     "url": "https://github.com/ojaha065/kissakalanTunnistus.git"
   },
   "dependencies": {
+    "@absxn/process-env-parser": "github:absxn/process-env-parser",
     "saml-idp": "^1.2.1"
   },
   "resolutions": {

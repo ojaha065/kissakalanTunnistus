@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  kissakala:
+    build: 
+      context: .
+    environment:
+      HOST: '0.0.0.0'
+      PORT: '8080'
+      SSL: 'false'
+      ACS_URL: 'not set'
+      SLO_URL: 'not set'
+      AUDIENCE: 'not set'
+    ports:
+      - 8080:8080
